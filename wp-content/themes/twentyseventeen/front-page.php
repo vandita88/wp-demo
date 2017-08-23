@@ -18,7 +18,7 @@ get_header(); ?>
 	<main id="main" class="site-main" role="main">
 <h1> PHP Version: <?php echo phpversion(); ?> </h1>
 
-<p>  This is a Demo Content </p>
+<p>  This is a Demo Content  for testing</p>
 		<?php // Show the selected frontpage content.
 		if ( have_posts() ) :
 			while ( have_posts() ) : the_post();
